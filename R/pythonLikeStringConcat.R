@@ -12,7 +12,7 @@
   if (is.character(e1)){
     paste0(e1,e2)
   } else {
-    .Primitive("+")
+    base::`+`(e1,e2)
   }
 }
 

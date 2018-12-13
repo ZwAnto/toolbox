@@ -43,7 +43,7 @@ b %notin% a # Return TRUE FALSE TRUE
 
 ## `+`
 
-I modified the original `+` operator in a way that you can now concat string with it (just like pyhton). It works just like the `paste0` function.
+I modified the original `+` operator in a way that you can now concat string with it (just like pyhton). It behave just like the `paste0` function.
 
 ````r
 a = 'ab'

@@ -9,7 +9,7 @@
 #' @return Character vector
 #' @export
 `+` <- function(e1, e2){
-  if (is.character(e1)){
+  if (is.character(e1) | is.character(e2)){
     paste0(e1,e2)
   } else {
     base::`+`(e1,e2)
